@@ -31,7 +31,7 @@ public enum Corner {
         };
     }
 
-   //смотрим противоположный луч
+   //смотрим противоположный лучн
     public Corner opposite() {
         return values()[(ordinal() + 3) % 6];
     }
